@@ -1,0 +1,21 @@
+{
+  "name": "zinora-backend",
+  "version": "1.0.0",
+  "description": "Zinora Launcher Backend Server",
+  "main": "backend-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
